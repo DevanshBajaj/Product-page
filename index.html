@@ -1,0 +1,97 @@
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Page</title>
+    <meta name="description" content="A simple HTML5 CSS Product Page.">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="column">
+			  <img id=featured src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+        </img>
+        <div class="arrow-slider">
+          <img id="slideLeft" class="arrow" src="https://i.imgur.com/wshA8nC.png">
+          <img id="slideRight" class="arrow" src="https://i.imgur.com/iPqjq2P.png">
+        </div>
+			<div id="slide-wrapper" >
+				<div id="slider">
+					<img class="thumbnail active" src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+					<img class="thumbnail" src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+					<img class="thumbnail" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80">
+
+					<img class="thumbnail" src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+					<img class="thumbnail" src="https://images.unsplash.com/photo-1491926626787-62db157af940?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80">
+				</div>
+			</div>
+		</div>
+      <div class="column">
+        <h1 class="product-title">Upholsetered Sofa</h1>
+        <p class="product-sub">
+          kyara upholstered standard bed<br/>by zipcode design
+        </p>
+        <div class="product-desc">
+          Anchor your living room in sophisticated style and impeccable comfort with a single addition. Perfectly balancing wood accents with fabric upholstery
+        </div>
+        <div class="rating-bar">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <div class="review"><div class="color">(5.0)</div>review based on 250</div>
+          <a href="/" style="text-decoration:underline; color: black;">Submit Review</a>
+        </div>
+        <div class="product-price">$567</div>
+        <div class="delivery">
+          <span class="far fa-clock"></span>
+          <p>Dispatched in 7 working days</p>
+        </div>
+        <div class="order">
+          <button class="orderbtn">Add to cart</button>
+          <button class="wishlistbtn">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="column-feature">
+        <div class="feature-card">
+          <div class="icons">
+            <img src="https://i.imgur.com/i0zMoKm.png" alt="wallet"/>
+          </div>
+          <div class="feature-desc">
+            <h3>Secure Payments</h3>
+            <p>Don't worry, your money is in secure place</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="icons">
+            <img src="https://i.imgur.com/Z1GO37q.png" alt="delivery" />
+          </div>
+          <div class="feature-desc">
+            <h3>Fast & Free delivery</h3>
+            <p>Home delivery $15 For free selivery order over $250</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="icons">
+            <img src="https://i.imgur.com/gETCIaN.png" alt="return" />
+          </div>
+          <div class="feature-desc">
+            <h3>Return Policy</h3>
+            <p>Don't worry, your money is in secure place</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
